@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS 레이아웃 - 2단 레이아웃</title>
+  <style>
+    #pos1 {
+      position: absolute;
+      left: 50px;
+      top: 50px;
+    }
+    #pos2 {
+      position: absolute;
+      right: 100px;
+      top: 100px;
+    }
+    #pos3 {
+      position: absolute;
+      left: 100px;
+      bottom: 100px;
+    }
+
+    #static { position: static; }
+    #relative-1 { position: relative; }
+    #relative-2 {
+      position: relative;
+      left: 100px;
+      top: -50px;
+    }
+    #fixed {
+      width: 100px;
+      height: 100px;
+      background-color: #222;
+      position: fixed;
+      right: 30px;
+      top: 30px;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div>
+    <p id="pos1">왼쪽 상단</p>
+    <p id="pos2">오른쪽 상단</p>
+    <p id="pos3">왼쪽 하단</p>
+  </div>
+  <div>
+    <p id="static">Et et</p>
+    <p id="relative-1">Lorem ipsum</p>
+    <p id="relative-2">Excepteur</p>
+    <p id="fixed"></p>
+  </div>
+</body>
+
+</html>
