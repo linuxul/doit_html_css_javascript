@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스타일과 스타일 시트</title>
+    <link rel="stylesheet" href="./css/study-06.css">
+    <style>
+        h2 {
+            padding: 10px;
+            background-color: blueviolet;
+            color: aqua;
+        }
+
+        p {
+            font-style: italic;
+        }
+
+        .accent {
+            border: 1px solid #00ff80;
+            padding: 5px;
+        }
+
+        .bg {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1 class="accent">기본 텍스트</h1>
+        <h1 style="background-color:aquamarine; color: red;">텍스트 : 빨간색</h1>
+        <h2>h2 텍스트 : style </h2>
+        <p class="bg">p 텍스트 : css 파일에서 처리</p>
+        <p class="accent bg">p 텍스트 한번더 처리 : css 파일에서 처리</p>
+    </div>
+</body>
+</html>
