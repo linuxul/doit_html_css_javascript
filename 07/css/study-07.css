@@ -142,3 +142,52 @@ li {
 .spacing2 {
     letter-spacing: 0.5em;
 }
+
+.book1 {
+    list-style-type: none;
+}
+
+.book2 {
+    list-style-type: upper-alpha;
+}
+
+.ul-list-style {
+    list-style-image: url('/07/images/dot.png');
+}
+
+.ul-list-inside {
+    list-style-position: inside;
+}
+
+.ul-list-outside {
+    list-style-position: outside;
+}
+
+.nav-menu {
+    width: 300px;
+    margin: 50px 30px;
+}
+
+.nav-ul-list-style {
+    list-style: none;
+}
+
+.nav-ul-li {
+    border: 1px solid #222;
+    padding: 20px 40px;
+    margin: 5px;
+}
+
+.table-main {
+    caption-side: bottom;
+    /* text-align: center; */
+    border: 1px solid #aaa;
+    border-spacing: 10px;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px dotted black;
+    padding: 10px;
+    text-align: center;
+}
