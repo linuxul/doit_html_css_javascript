@@ -1,6 +1,6 @@
 
 body {
-    background-color: red;
+    background-color: gray;
 }
 
 #container {
@@ -40,7 +40,7 @@ li {
 table,
 th,
 td {
-    border: 1px solid #222;
+    border: 3px solid wheat;
     /* 표 테두리 */
     border-collapse: collapse;
     /* 테두리 1줄만 표시 */
@@ -51,6 +51,33 @@ td {
     padding: 10px;
     /* 셀 안쪽의 여백(패딩) */
 }
+
+table {
+    background-color: goldenrod;
+    text-align: left;
+}
+
+caption {
+    background-color: red;
+    font-size: 25px;
+}
+
+th {
+    background-color: blueviolet;
+}
+
+tr {
+    /* background-color: #1ff0ff; */
+}
+
+td {
+    /* background-color: aquamarine; */
+    text-align: center;
+}
+
+/* td > rowspan {
+    background-color: red;
+} */
 
 dl {
     background-color: aqua;
