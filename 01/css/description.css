@@ -6,7 +6,7 @@
 table,
 th,
 td {
-    border: 1px solid blueviolet;
+    border: 1px solid gray;
     /* 표 테두리 */
     border-collapse: collapse;
     /* 테두리 1줄만 표시 */
