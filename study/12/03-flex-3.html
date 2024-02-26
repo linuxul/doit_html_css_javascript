@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      background-color: antiquewhite;
+    }
+
+    p {
+      text-align: center;
+      font-weight: bold;
+      color: wheat;
+    }
+
+    .container {
+      width: 700;
+      display: flex;
+      background-color:chocolate;
+      border: 3px solid green;
+      margin-bottom: 10px;
+    }
+
+    .box {
+      width: 100px;
+      height: 50px;
+      background-color: blueviolet;
+      margin: 5px;
+    }
+
+    #opt1 {
+      flex-flow: row nowrap;
+    }
+
+    #opt2 {
+      flex-flow: row wrap;
+    }
+
+    #opt3 {
+      /* flex-direction: column; */
+      flex-wrap: wrap-reverse;
+    }
+
+    #opt4 {
+      flex-direction: column-reverse;
+      flex-wrap: wrap-reverse;
+    }
+
+
+  </style>
+</head>
+<body>
+  <div class="container" id="opt1">
+    <div class="box">
+      <p>1</p>
+    </div>
+    <div class="box">
+      <p>2</p>
+    </div>
+    <div class="box">
+      <p>3</p>
+    </div>
+    <div class="box">
+      <p>4</p>
+    </div>
+    <div class="box">
+      <p>5</p>
+    </div>
+    <div class="box">
+      <p>6</p>
+    </div>
+    <div class="box">
+      <p>7</p>
+    </div>
+  </div>
+  <div class="container" id="opt2">
+    <div class="box">
+      <p>1</p>
+    </div>
+    <div class="box">
+      <p>2</p>
+    </div>
+    <div class="box">
+      <p>3</p>
+    </div>
+    <div class="box">
+      <p>4</p>
+    </div>
+    <div class="box">
+      <p>5</p>
+    </div>
+    <div class="box">
+      <p>6</p>
+    </div>
+    <div class="box">
+      <p>7</p>
+    </div>
+  </div>
+  <div class="container" id="opt3">
+    <div class="box">
+      <p>1</p>
+    </div>
+    <div class="box">
+      <p>2</p>
+    </div>
+    <div class="box">
+      <p>3</p>
+    </div>
+    <div class="box">
+      <p>4</p>
+    </div>
+    <div class="box">
+      <p>5</p>
+    </div>
+    <div class="box">
+      <p>6</p>
+    </div>
+    <div class="box">
+      <p>7</p>
+    </div>
+  </div>
+  <div class="container" id="opt4">
+    <div class="box">
+      <p>1</p>
+    </div>
+    <div class="box">
+      <p>2</p>
+    </div>
+    <div class="box">
+      <p>3</p>
+    </div>
+    <div class="box">
+      <p>4</p>
+    </div>
+    <div class="box">
+      <p>5</p>
+    </div>
+    <div class="box">
+      <p>6</p>
+    </div>
+    <div class="box">
+      <p>7</p>
+    </div>
+  </div>
+</body>
+</html>
