@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>박스 모델 너비 지정하기</title>
+  <style>
+
+    body {
+      background-color: beige;
+    }
+
+    div {
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      /* margin: 20px; */
+    }
+
+    #margin1 {
+      box-sizing: content-box;
+      background-color: blanchedalmond;
+      padding: 20px;
+      border: 30px solid blue;
+      border-width: 5px 10px 15px 20px;
+      border-radius: 30px;
+      margin: 50px;
+    }
+
+    #margin2 {
+      box-sizing: content-box;
+      background-color: blanchedalmond;
+      padding: 20px;
+      border: 30px dotted blue;
+      border-width: 25px 20px 15px 10px;
+      border-radius: 20px;
+      margin: 30px 50px
+    }
+
+    #margin3 {
+      box-sizing: content-box;
+      background-color: blanchedalmond;
+      padding: 20px;
+      border: 30px dashed blue;
+      border-width: 5px 8px 10px 5px;
+      border-radius: 20px;
+      margin: 30px 20px 50px
+    }
+
+    #margin4 {
+      box-sizing: content-box;
+      background-color: greenyellow;
+      padding: 20px;
+      border: 30px solid green;
+      border-width: 5px 8px 10px 5px;
+      border-radius: 20px;
+      margin: 30px 50px 30px 50px;
+    }
+
+    #margin5 {
+      box-sizing: content-box;
+      background-color: greenyellow;
+      padding: 20px;
+      border: 30px solid green;
+      border-top-color: aqua;
+      border-left-color: red;
+      border-width: 5px 8px 10px 5px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 40px;
+      margin-right: 20px;
+    }
+
+    #margin6 {
+      box-sizing: content-box;
+      background-color: greenyellow;
+      padding: 20px;
+      border: 30px solid green;
+      border-color: aliceblue rebeccapurple gold blue;
+      border-width: 5px 8px 10px 5px;
+    }
+  </style>
+</head>
+<body>
+  <div id="margin1">실선 테두리</div>
+  <div id="margin2">점선 테두리</div>
+  <div id="margin3">짧은 직성 테두리</div>
+  <div id="margin4">짧은 직성 테두리</div>
+  <div id="margin5">짧은 직성 테두리</div>
+  <div id="margin6">짧은 직성 테두리</div>
+</body>
+</html>
